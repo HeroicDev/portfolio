@@ -1,0 +1,192 @@
+/* main page css */
+body {
+    margin: 0px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: aquamarine;
+}
+
+button:hover {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+a {
+    color: black;
+}
+
+h1 {
+    font-family: fantasy, cursive, sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+h3, h2 {
+    text-transform: capitalize;
+    font-family: fantasy, cursive;
+    padding-bottom: 10px; 
+    margin: 0;
+}
+
+/* navbar css */
+#navbar {
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+#navbar a {
+    height: 30px;
+    width: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar a:hover {
+    color: white;
+    border-bottom: 5px solid white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+/* HERO css */
+#hero {
+    height: 450px;
+    width: auto;
+    background-color: black;
+    padding: 15px 0px;
+    background-image: url(http://res.cloudinary.com/adebello/image/upload/v1465279473/holder_hero_nature_arrwmr.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h4 {
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+/* ABOUT CSS */
+#about {
+    height: 500px;
+    width: auto;
+    padding: 20px 0px;
+    background-color: #3185FC;
+}
+
+#about i {
+    font-size: 5em;
+}
+
+#about p {
+    font-size: 1.8em;
+}
+
+
+/* portfolio css */
+#portfolio {
+    height: auto;
+    width: auto;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#portfolio h3 {
+    margin: 0px 0px 10px 0px;
+}
+
+.portfolio-imgs-container {
+    padding: 5px 0px;
+}
+
+.img-wrapper li {
+    display: inline-block;
+    list-style: none;
+}
+
+.img-wrapper img {
+    margin: 5px 5px;
+    border-radius: 5px;
+} 
+
+/* contact me css */
+#contact {
+    height: auto;
+    width: auto;
+    background-color: #3185FC;
+    padding: 20px 0px;
+}
+
+#contact i {
+    padding-right: 10px;
+}
+
+#form-wrapper {
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 0px 0px 20px 30px;
+    width: 490px;
+}
+
+#form-wrapper input {
+    height: 30px;
+    width: 450px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#form-wrapper textarea {
+    height: 100px;
+    width: 450px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    margin-top: 10px;
+}
+
+#form-text {
+    font-size: 1.8em;
+}
+
+/* FOOTER CSS */
+footer {
+    background-color: darkgrey;
+    height: auto;
+    width: auto;
+    overflow: auto;
+    padding: 0px;
+    position: relative;
+    display: center;
+    font-size: 20px;
+}
+
+#social a{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+#social a:hover {
+    color: white;
+}
+
+/* General css */

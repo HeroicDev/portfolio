@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Welcome to my site</title>
+        
+        <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+        <script src="https://use.fontawesome.com/0f7d7ad1b7.js"></script>
+        <script type="text/javascript" src="portfolio.js"></script>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="portfolio.css">
+
+    </head>
+
+    <body>
+        <!-- nav bar -->
+        <nav id="navbar" class="container-fluid text-center">
+            <div class="col-md-6 col-md-push-3">
+                <a href="#hero">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+        </nav>
+        
+        <!-- hero section -->
+        <section id="hero" class="container-fluid">
+            <div class="col-md-4 col-md-push-7">
+                <h1>Ade<br/>Bello </h1>
+                <h4>engineer, programmer,<br/>adventurer, chef<br/></h4>
+            </div>
+        </section>
+        
+        <!-- about section -->
+        <section id="about" class="container-fluid text-center">
+            <div id="about-wrapper">
+                <h2>--- ABOUT ---</h2>
+                <div id="about-bio" class="col-md-4 col-md-offset-1 text-center">
+                    <i class="fa fa-user"></i>
+                    <p>An end to end developer with an eye for quality user experience. Always learning new things and cooking up new recipies in the kitchen. Love solving new challenges, exploring nature and the outdoors.</p>
+                </div>
+                <div class="col-md-4 col-md-offset-2 text-center">
+                    <i class="fa fa-graduation-cap"></i>
+                    <p>Currently working on my Bachelors in Computer Engineering. I have experince in programming languages like Java, PHP, Html, CSS, Javascript, C# and I have developed applications for desktop, mobile and web platforms. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- my portfolio section -->
+        <section id="portfolio" class="container-fluid text-center">
+            <h2>--- PORTFOLIO ---</h2>
+            
+            <div class="container-fluid img-wrapper">
+                <li><img class="img-fluid" src="http://res.cloudinary.com/adebello/image/upload/v1465279472/holder_1_q9vj3q.jpg" alt="placeholder"/></li>
+                <li><img class="img-fluid" src="http://res.cloudinary.com/adebello/image/upload/v1465279472/holder_2_cs5lcp.jpg" alt="placeholder"/></li>
+                <li><img class="img-fluid" src="http://res.cloudinary.com/adebello/image/upload/v1465279472/holder_3_lr8bdg.jpg" alt="placeholder"/></li>
+            </div>
+            <div class="img-wrapper">
+                <li><img class="img-fluid" src="http://res.cloudinary.com/adebello/image/upload/v1465279472/holder_4_hgylqt.jpg" alt="placeholder"/></li>
+                <li><img class="img-fluid" src="http://res.cloudinary.com/adebello/image/upload/v1465279472/holder_5_pm4nxy.jpg" alt="placeholder"/></li>
+                <li><img class="img-fluid" src="http://res.cloudinary.com/adebello/image/upload/v1465279472/holder_6_jest8b.jpg" alt="placeholder"/></li>        
+            </div>
+        </section>
+        
+        <!-- Contact me section -->
+        <section id="contact" class="container-fluid">
+            <h2 class="text-center">--- CONTACT ME ---</h2>
+            <form action="/action" method="post">
+                <div id="form-wrapper" class="col-md-6">
+                    <div class="row col-md-6">
+                        <label for="name">Name</label><br/>
+                        <input type="text" value="" size="30"/>
+                        <label for="email">Email</label><br/>
+                        <input type="email" value="" size="30"/>
+                        <label for="message">Message</label><br/>
+                        <textarea name="message"></textarea>
+                        <button class="btn-submit" type="submit"><i class="fa fa-paper-plane"></i>SEND</button>
+                    </div>
+                </div>
+
+                <div id="form-text" class="col-md-4 col-md-offset-2 text-left">
+                    <p>If you would like to reach me for any reason or just to say hi, please fill out this form and I will get back to you. Please don't spam me. :)</p>
+                </div>
+            </form>
+        </section>
+        
+        <!-- footer -->
+        <footer>
+            <span class="col-md-4" id="copyright">
+                <i class="fa fa-copyright"></i><span> 2016. All rights reserved</span>
+            </span>
+
+            <span class="col-md-6 col-md-push-5" id="social">
+                Connect with me:
+                <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.github.com/"><i class="fa fa-github"></i></a>
+            </span>
+
+        </footer>
+    </body>
+    
+</html>
