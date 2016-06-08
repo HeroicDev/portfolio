@@ -66,13 +66,14 @@
         <!-- Contact me section -->
         <section id="contact" class="container-fluid">
             <h2 class="text-center">--- CONTACT ME ---</h2>
-            <form action="/action" method="post">
+            <!-- NOTE: this form only works on web servers-->
+            <form action="https://formspree.io/robotics37@gmail.com" method="POST">
                 <div id="form-wrapper" class="col-md-6">
                     <div class="row col-md-6">
                         <label for="name">Name</label><br/>
-                        <input type="text" value="" size="30"/>
+                        <input name="name" type="text" value="" size="30"/>
                         <label for="email">Email</label><br/>
-                        <input type="email" value="" size="30"/>
+                        <input name="email" type="email" value="" size="30"/>
                         <label for="message">Message</label><br/>
                         <textarea name="message"></textarea>
                         <button class="btn-submit" type="submit"><i class="fa fa-paper-plane"></i>SEND</button>
